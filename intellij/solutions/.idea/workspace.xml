@@ -17,12 +17,6 @@
       <change beforePath="$PROJECT_DIR$/../code/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/src/main/java/com/allendowney/thinkdast/MyTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code/src/main/java/com/allendowney/thinkdast/MyTreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../solutions/src/resources/en.wikipedia.org/wiki/Java_(Programming_Language)" beforeDir="false" afterPath="$PROJECT_DIR$/../../solutions/src/resources/en.wikipedia.org/wiki/Java_(Programming_Language)" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -552,7 +546,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524898876996</updated>
-      <workItem from="1644677329028" duration="460000" />
+      <workItem from="1644677329028" duration="515000" />
     </task>
     <servers />
   </component>
