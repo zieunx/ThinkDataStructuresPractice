@@ -49,6 +49,11 @@ public class MyTreeMap<K, V> implements Map<K, V> {
 	public void clear() {
 		size = 0;
 		root = null;
+		/*
+		* root = null 은 '상수시간'처럼 보이지만, 고려해야 할 점이 있다.
+		* root 변수가 null 이 되면 가비지 컬렉터는 트리에 있는 노드 객체의 수거를 요청하며
+		* 이는 '선형시간'이 걸린다.
+		* */
 	}
 
 	@Override
@@ -71,7 +76,18 @@ public class MyTreeMap<K, V> implements Map<K, V> {
 		@SuppressWarnings("unchecked")
 		Comparable<? super K> k = (Comparable<? super K>) target;
 
-		// TODO: FILL THIS IN!
+
+		Node node = root;
+		while (node != null) {
+			int cmp = k.compareTo(root.key);
+			if (cmp < 0) {
+				node = node.left;
+			} else if (cmp > 0) {
+				node = node.right;
+			} else {
+				return node;
+			}
+		}
 		return null;
 	}
 
